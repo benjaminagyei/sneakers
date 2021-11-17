@@ -14,7 +14,6 @@ const Login = ({navigation} ) => {
     >
   <Image
     style= {{
-      transform: [{rotate: "60deg"}],
       borderRdius: 20,
       marginBottom: 60,
       width: 250,
