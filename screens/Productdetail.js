@@ -51,7 +51,8 @@ export default function ProductDetails({navigation, route}){
                 </View>
 
                 <View style={{borderRadius: 15, borderWidth: 0.6, padding: 10, marginTop: 25}}>
-                    <TouchableOpacity> 
+                    <TouchableOpacity
+                        onPress={() => navigation.navigate('Cart')}> 
                         <Text> Add to Cart </Text>
                     </TouchableOpacity>
                 </View>
